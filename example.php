@@ -9,8 +9,7 @@ ini_set('display_errors', 1);
 ini_set('log_errors', 0);
 ini_set('html_errors', 0);
 
-require 'lib/cli/cli.php';
-\cli\register_autoload();
+require __DIR__ . '/vendor/autoload.php';
 
 $menu = array(
 	'out_out' => 'cli\out Example',
