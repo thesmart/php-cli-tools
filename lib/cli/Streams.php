@@ -139,7 +139,7 @@ class Streams {
 
 		while( true ) {
 			\cli\Streams::out( $question . $marker );
-			$line = \cli\Streams::line();
+			$line = \cli\Streams::input();
 
 			if( !empty( $line ) )
 				return $line;
